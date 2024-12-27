@@ -23,16 +23,28 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
+/**
+ * @typedef {Object} SiteProps
+ * @property {string} name - The name of the individual.
+ * @property {string} title - The professional title of the individual.
+ * @property {string} email - The email address of the individual.
+ * @property {string} gitHub - The GitHub username of the individual.
+ * @property {string} instagram - The Instagram handle of the individual.
+ * @property {string} linkedIn - The LinkedIn username of the individual.
+ * @property {string} medium - The Medium username of the individual.
+ * @property {string} twitter - The Twitter handle of the individual.
+ * @property {string} youTube - The YouTube channel name of the individual.
+ */
 const siteProps = {
-  name: "Alexandrie Grenier",
+  name: "Monali Dhembare",
   title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  email: "monadhembare19@gmail.com",
+  gitHub: "mbdhembare",
+  instagram: "monalid_19",
+  linkedIn: "monali",
+  medium: "monali",
+  twitter: "monali",
+  youTube: "Monali's Channel",
 };
 
 const primaryColor = "#4E567E";
